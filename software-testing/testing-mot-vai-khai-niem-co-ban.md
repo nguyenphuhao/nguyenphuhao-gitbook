@@ -2,9 +2,26 @@
 description: >-
   Testing là một trong những công việc BẮT BUỘC phải có trong trong quy trình
   phát triển phần mềm
+cover: >-
+  https://images.unsplash.com/photo-1519336367661-eba9c1dfa5e9?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxUZXN0aW5nfGVufDB8fHx8MTY5MTY0MDY0NXww&ixlib=rb-4.0.3&q=85
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
-# Làm quen với Test
+# Testing - Một vài khái niệm cơ bản
 
 ## Testing là gì?
 

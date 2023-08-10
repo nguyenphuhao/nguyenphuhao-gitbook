@@ -10,4 +10,4 @@
 
 ## Software Testing
 
-* [1. Một vài khái niệm cơ bản](software-testing/1.-mot-vai-khai-niem-co-ban.md)
+* [Testing - Một vài khái niệm cơ bản](software-testing/testing-mot-vai-khai-niem-co-ban.md)
