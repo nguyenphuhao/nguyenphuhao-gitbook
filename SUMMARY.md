@@ -10,4 +10,4 @@
 
 ## Software Testing
 
-* [Làm quen với Test](software-testing/lam-quen-voi-test.md)
+* [1. Một vài khái niệm cơ bản](software-testing/1.-mot-vai-khai-niem-co-ban.md)
