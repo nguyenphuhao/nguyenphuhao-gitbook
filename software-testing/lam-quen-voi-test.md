@@ -91,13 +91,9 @@ Với ví dụ Đặt hàng trên Tiki bên trên. Nếu Unit Testing chỉ dừ
 
 Nếu bạn đã hiểu Unit Testing và Integration Testing rồi thì System Testing đơn giản là test toàn bộ hệ thống. Khi thực hiện System Testing đồng nghĩa với việc bạn thực hiện tất cả Integration Testing đang có trong hệ thống. Đơn giản là thế.
 
-## Test Lifecycle
+## Quy trình Testing
 
-```mermaid
-%%{init: {'theme':'neutral'}}%%
-graph TD
-  A(Test Plan) --> B(Analyze Requirement & Design) --> C(Test Cases) --> D(Execute Test Cases) --> E(Test Reports)
-```
+<img src="../.gitbook/assets/file.excalidraw.svg" alt="Quy trình Testing" class="gitbook-drawing">
 
 
 
