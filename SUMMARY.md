@@ -10,7 +10,5 @@
 
 ## Software Testing
 
-* [Những khái niệm cơ bản](software-testing/nhung-khai-niem-co-ban/README.md)
-  * [Software Testing là gì?](software-testing/nhung-khai-niem-co-ban/software-testing-la-gi.md)
-  * [Phân loại Software Testing](software-testing/nhung-khai-niem-co-ban/phan-loai-software-testing.md)
+* [Những khái niệm cơ bản](software-testing/nhung-khai-niem-co-ban.md)
 * [Testing - Một vài khái niệm cơ bản](software-testing/testing-mot-vai-khai-niem-co-ban.md)
