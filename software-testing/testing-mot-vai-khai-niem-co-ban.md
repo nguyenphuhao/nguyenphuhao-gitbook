@@ -108,9 +108,19 @@ Với ví dụ Đặt hàng trên Tiki bên trên. Nếu Unit Testing chỉ dừ
 
 Nếu bạn đã hiểu Unit Testing và Integration Testing rồi thì **System Testing** đơn giản là test toàn bộ hệ thống. Khi thực hiện System Testing đồng nghĩa với việc bạn thực hiện tất cả Integration Testing đang có trong hệ thống. Đơn giản là thế.
 
+### Use Case, Test Scenario và Test Case
+
+Đây là 3 khái niệm mà đa số mọi người đều nhầm lẫn, kể cả người đó đã có nhiều kinh nghiệm trong dự án thực tế.&#x20;
+
+Use Case mô tả một quy trình (Process)
+
+Test Scenario (hay gọi tắt là Scenario) mô tả một sự kiện
+
+Test Case mô tả chi tiết một quy trình
+
 ## Quy trình Testing
 
-<img src="../.gitbook/assets/file.excalidraw.svg" alt="Quy trình Testing" class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw (2).svg" alt="Quy trình Testing" class="gitbook-drawing">
 
 
 
