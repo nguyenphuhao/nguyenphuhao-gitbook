@@ -10,5 +10,7 @@
 
 ## Software Testing
 
-* [Khái quát về Software Testing](software-testing/khai-quat-ve-software-testing.md)
+* [Khái quát về Software Testing](software-testing/khai-quat-ve-software-testing/README.md)
+  * [Software Testing là gì?](software-testing/khai-quat-ve-software-testing/software-testing-la-gi.md)
+  * [Phân loại Software Testing](software-testing/khai-quat-ve-software-testing/phan-loai-software-testing.md)
 * [Testing - Một vài khái niệm cơ bản](software-testing/testing-mot-vai-khai-niem-co-ban.md)
