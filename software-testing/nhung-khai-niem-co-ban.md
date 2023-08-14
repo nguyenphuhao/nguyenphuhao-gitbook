@@ -6,15 +6,21 @@ description: >-
 
 # Những khái niệm cơ bản
 
-## Testing
+## Tản mạn về Testing
 
-### Testing là gì?
+### Tầm quan trọng của Testing
 
-Testing là một hành động kiểm tra tính đúng đắn của một thứ gì đó. Testing luôn xung quanh ta trong cuộc sống hằng ngày.&#x20;
+:question:Testing có quan trọng không?
+
+Khi bạn tìm đến trang tài liệu này thì chứng tỏ Testing ít nhiều góp phần quan trọng trong công việc của bạn. Đối với tôi, Testing CỰC KỲ QUAN TRỌNG.&#x20;
+
+### Ồ, vậy Testing nên hiểu như thế nào?
+
+Theo tôi, Testing chỉ đơn giản là một hành động kiểm tra tính đúng đắn của một thứ gì đó. Testing luôn xung quanh ta trong cuộc sống hằng ngày.&#x20;
 
 * Làm bài kiểm tra xong, bạn hay kiểm tra lại đáp án rồi mới nộp bài.
 * Sau khi thu âm xong, bạn hay nghe lại file thu âm của mình để xem mình có bị vấp hay bị phô chỗ nào không?
-* Sau khi nhận bàn giao nhà, trước khi vào ở bạn thường kiểm tra kỹ lưỡng nhà của bạn có xây đúng thiết ban đầu hay không
+* Sau khi nhận bàn giao nhà, trước khi vào ở, bạn thường kiểm tra kỹ lưỡng nhà của bạn được xây đúng thiết ban đầu hay không?
 * Và khi làm xong một sản phẩm phần mềm, người ta hay kiểm tra kỹ phần mềm này để đảm bảo rằng phần mềm hoạt động đúng như thiết kế ban đầu.
 
 ### Mục đích của Testing
@@ -27,17 +33,19 @@ Mục đích của Testing là phát hiện lỗi sớm trước khi sản phẩ
 
 Mình biết ví dụ trên nghe có vẻ hơi "ngu ngốc". Tuy nhiên, nó mô tả được vấn đề rằng dù cho chúng ta có kỹ và cẩn thận đến đâu đi chăng nữa thì phần trăm số ít rủi ro vẫn có thể xảy ra. Vì thế, nếu áp dụng Testing với mong muốn tạo ra sản phẩm hoàn hảo là hoàn toàn điên rồ. Thay vì áp đặt mong muốn sản phẩm hoàn hảo thì chúng ta xác định rằng sản phẩm của chúng ta sẽ hoạt động cực kỳ tốt trong một hoàn cảnh nhất định.
 
-## Testing có quan trọng không?
-
-CỰC KỲ QUAN TRỌNG. Bạn làm phần mềm giao dịch tiền gửi ngân hàng mà chức năng gửi tiền ghi nhận số dư bị sai thì thôi nghỉ kinh doanh là vừa.
-
 ## Software Testing là gì?
 
-Nói nhiều về Testing rồi, bây giờ chúng ta sẽ nói về Software Testing coi có gi đặc biệt hơn không?
+Nói nhiều về Testing rồi, bây giờ chúng ta sẽ nói về một phạm vi cụ thể hơn - Software Testing (Kiểm thử phần mềm), để xem thử Testing trong lĩnh vực phát triển phần mềm có gi đặc biệt hơn không?
+
+{% hint style="info" %}
+Có đôi lúc tôi sẽ dùng từ "Software Testing" hoặc "Kiểm thử phần mềm" để mô tả việc kiểm tra các tính năng trong sản phẩm phần mềm nên các bạn xem 2 thuật ngữ này cùng một nghĩa nhé.
+{% endhint %}
+
+Quay lại câu chuyện của chúng ta.
 
 Khi bạn chiên trứng lòng đào thì bạn sẽ kiểm tra những gì? Có phải đó là lòng đỏ trứng có ở trạng thái vừa đặc vừa lỏng không?
 
-Software là phần mềm. Khi làm Software Testing chúng ta sẽ kiểm tra một vài đặc điểm sau:
+Đối tượng Testing bây giờ là **phần mềm**. Khi làm Software Testing chúng ta sẽ kiểm tra một vài đặc điểm sau:
 
 * Tính năng hoạt động có đúng như thiết kế ban đầu không?
 * UI/UX của sản phẩm có thân thiện và dễ sử dụng với người dùng không?
@@ -47,11 +55,121 @@ Software là phần mềm. Khi làm Software Testing chúng ta sẽ kiểm tra m
 
 <img src="../.gitbook/assets/file.excalidraw (3).svg" alt="Software Quality" class="gitbook-drawing">
 
-Chúng ta sẽ tìm hiểu sâu hơn về các đặc điểm và cách test các đặc điểm ở những chương khác chuyên về kỹ thuật testing.
-
 ## Có những loại Software Testing nào?
 
-Có đến hàng trăm loại testing. Tuy nhiên, để đơn giản hóa thì mình sẽ gom nhóm như sau
+### Manual Testing
+
+#### Định nghĩa
+
+Là một HÌNH THỨC KIỂM THỬ thủ công không dùng bất cứ công cụ tự động nào.
+
+#### Người thực hiện
+
+* Test Engineer.
+* End Users.
+
+#### Lợi ích
+
+* Kiểm tra các trường hợp một cách chi tiết.
+* Linh động trong quá trình kiểm thử khi tính năng thay đổi liên tục.
+
+#### Hạn chế
+
+* Mất nhiều thời gian và công sức thực hiện kiểm thử lại toàn bộ hệ thống.
+
+#### Sử dụng khi nào?
+
+* Kiểm tra sản phẩm mới.
+* Kiểm tra những tính năng phức tạp.
+* Kiểm tra những tính năng hay có sự thay đổi.
+
+### Automation Testing
+
+#### Khái niệm
+
+Là HÌNH THỨC KIỂM THỬ dùng script hoặc công cụ kiểm thử tự động
+
+#### Người thực hiện
+
+* Test Engineer
+* Developer có kinh nghiệm kiểm thử tự động
+
+#### Lợi ích
+
+* Tiết kiệm thời gian và công sức khi thực hiện các tính năng ít thay đổi
+
+#### Hạn chế
+
+* Yêu cầu kiến thức về lập trình.
+* Khó kiểm thử cho những tính năng thay đổi thường xuyên.&#x20;
+
+#### Sử dụng khi nào?
+
+* Dùng để test những tính năng ít có sự thay đổi
+
+### White Box Testing
+
+#### Khái niệm
+
+là KỸ THUẬT KIỂM THỬ nhằm kiểm tra cách thức hoạt động bên trong phần mềm thông qua Structure và Business Logic được viết bên trong source code của phần mềm.
+
+#### Người thực hiện
+
+* Test Engineer
+* Developer
+
+#### Lợi ích
+
+* Phát hiện lỗi Logic bên trong phần mềm mà bên ngoài không thể test được thấy được
+
+#### Hạn chế
+
+* Yêu cầu phải hiểu về source code của phần mềm.
+* Không thể thử nghiệm các case thực tế.
+
+#### Sử dụng khi nào?
+
+* Kiểm tra tính đúng đắn của Business Logic bên trong phần mềm thông qua viết Unit Test và Integration Test.
+
+### Black Box Testing
+
+#### Khái niệm
+
+là KỸ THUẬT KIỂM THỬ phần mềm nhằm tập trung kiểm thử tính đúng đắn của tính năng mà không quan tâm đến cách thức hoạt động bên trong phần mềm.
+
+#### Người thực hiện
+
+* Test Engineer
+* End User
+
+#### Lợi ích
+
+* Tập trung vào trải nghiệm người dùng
+* Phát hiện lỗi từ góc nhìn của End User
+
+#### Hạn chế
+
+* Có trường hợp Code&#x20;
+
+#### Sử dụng khi nào?
+
+### Gray Box Testing
+
+### Functional Testing
+
+### Non-Functional Testing
+
+### Unit Testing
+
+### Integration Testing
+
+### System Testing
+
+### Acceptance Testing
+
+
+
+Có đến hàng trăm loại testing và được chia theo nhiều hình thức khác nhau. Tuy nhiên, để đơn giản hóa thì mình sẽ gom nhóm như sau
 
 <img src="../.gitbook/assets/file.excalidraw (4).svg" alt="Types of Software Testing" class="gitbook-drawing">
 
