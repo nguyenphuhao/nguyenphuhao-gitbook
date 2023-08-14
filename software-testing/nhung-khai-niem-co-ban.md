@@ -149,17 +149,104 @@ là KỸ THUẬT KIỂM THỬ phần mềm nhằm tập trung kiểm thử tính
 
 #### Hạn chế
 
-* Có trường hợp Code&#x20;
+* Không thể kiểm tra được tính đúng đắn của Logic bên trong phần mềm. Đôi lúc Logic bên trong phần mềm hoạt động sai nhưng tính năng bên ngoài lại trả kết quả đúng.
 
 #### Sử dụng khi nào?
 
+* Dùng để phát hiện lỗi khi các tính năng trong phần mềm tương tác với nhau.
+
 ### Gray Box Testing
+
+#### Khái niệm
+
+là KỸ THUẬT KIỂM THỬ phần mềm kết hợp cả hai khía cạnh của White Box và Black Box
+
+#### Người thực hiện
+
+* Test Engineer
+* Developer
+
+#### Lợi ích
+
+* Kiểm tra được tất cả Business Logic bên trong phần mềm và cả về mặt tính năng theo góc độ của người sử dụng phần mềm.
+
+#### Hạn chế
+
+* Cần hiểu biết về lập trình và tính năng của phần mềm
+
+#### Sử dụng khi nào?
+
+* Dùng kiểm tra tích hợp các yêu cầu và đánh giá source code có đáp ứng yêu cầu hay không
 
 ### Functional Testing
 
+#### Khái niệm
+
+Là một loại Black Box Testing chỉ xem xét tính đúng đắn của tính năng trong phần mềm.
+
+#### Người thực hiện
+
+* Test Engineer
+* End User
+
+#### Lợi ích
+
+* Đảm bảo tính hoàn thiện về mặt tính năng
+
+#### Hạn chế
+
+* Vì chỉ xem xét tính đúng đắn của tính năng nên sẽ không phát hiện được những vấn đề khác liên quan đến hiệu suất hoặc tính bảo mật của hệ thống phần mềm.
+
+#### Sử dụng khi nào?
+
+* Được dùng để phát hiện lỗi trong tính năng.
+
 ### Non-Functional Testing
 
+#### Khái niệm
+
+là một loại Black Box Testing chỉ chú trọng đến các thành phần như: Hiệu suất, bảo mật, khả năng phục hồi, Khả năng chịu tải... mà không quan tâm đến tính năng của phầm mềm.
+
+#### Người thực hiện
+
+* Test Engineer
+* Developer
+* DevOps
+
+#### Lợi ích
+
+* Đảm bảo hiệu suất của phần mềm dưới các điều kiện và môi trường khác nhau
+
+#### Hạn chế
+
+* Đòi hỏi kiến thức sâu về hệ thống, server...
+
+#### Sử dụng khi nào?
+
+* Khi cần kiểm tra về bảo mật, hiệu suất, khả năng chịu tải.
+
 ### Unit Testing
+
+#### Khái niệm
+
+Là một loại kiểm thử nhằm kiểm tra các thành phần riêng lẻ trong hệ thống phần mềm.&#x20;
+
+Ở góc nhìn của Developer thì các thành phần riêng lẻ sẽ là các hàm, các method, các class trong source code.&#x20;
+
+Ở góc nhìn của Test Engineer thì các thành phần riêng lẻ sẽ là các Test Case được viết ra sau quá trình phần tích các scenarios.
+
+#### Người thực hiện
+
+* Test Engineer
+* Developer
+
+#### Lợi ích
+
+* Dùng để phát hiện lỗi sớm ở giai đoạn Coding
+
+#### Hạn chế
+
+#### Khi nào sử dụng?
 
 ### Integration Testing
 
