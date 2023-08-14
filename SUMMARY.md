@@ -10,5 +10,6 @@
 
 ## Software Testing
 
+* [Những nguyên tắc quan trọng](software-testing/nhung-nguyen-tac-quan-trong.md)
 * [Những khái niệm cơ bản](software-testing/nhung-khai-niem-co-ban.md)
 * [Testing - Một vài khái niệm cơ bản](software-testing/testing-mot-vai-khai-niem-co-ban.md)
