@@ -6,6 +6,8 @@ description: >-
 
 # Những khái niệm cơ bản
 
+
+
 {% hint style="warning" %}
 Bài viết đang viết dang dở.
 {% endhint %}
@@ -17,6 +19,8 @@ Bài viết đang viết dang dở.
 :question:Testing có quan trọng không?
 
 Khi bạn tìm đến trang tài liệu này thì chứng tỏ Testing ít nhiều góp phần quan trọng trong công việc của bạn. Đối với tôi, Testing CỰC KỲ QUAN TRỌNG.&#x20;
+
+<figure><img src="../.gitbook/assets/very-important.svg" alt=""><figcaption><p>Testing cực kỳ quan trọng</p></figcaption></figure>
 
 ### Ồ, vậy Testing nên hiểu như thế nào?
 
@@ -58,6 +62,10 @@ Khi bạn chiên trứng lòng đào thì bạn sẽ kiểm tra những gì? Có
 * ... blah blah blah, rất nhiều yếu tố khác.&#x20;
 
 <img src="../.gitbook/assets/file.excalidraw (3).svg" alt="Software Quality" class="gitbook-drawing">
+
+## Bàn một chút về quy trình
+
+Có hai loại quy&#x20;
 
 ## Có những loại Software Testing nào?
 
