@@ -6,6 +6,10 @@ description: >-
 
 # Những khái niệm cơ bản
 
+{% hint style="warning" %}
+Bài viết đang viết dang dở.
+{% endhint %}
+
 ## Tản mạn về Testing
 
 ### Tầm quan trọng của Testing
