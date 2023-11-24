@@ -14,6 +14,7 @@
 * [Những nguyên tắc vàng trong làng Testing](software-testing/nhung-nguyen-tac-vang-trong-lang-testing.md)
 * [Những khái niệm cơ bản](software-testing/nhung-khai-niem-co-ban.md)
 * [Testing - Một vài khái niệm cơ bản](software-testing/testing-mot-vai-khai-niem-co-ban.md)
+* [Câu hỏi phỏng vấn Tester](software-testing/cau-hoi-phong-van-tester.md)
 
 ## Git
 
@@ -21,4 +22,6 @@
 
 ## Group 1
 
-* [Page 1](group-1/page-1.md)
+***
+
+* [Page 1](page-1.md)
